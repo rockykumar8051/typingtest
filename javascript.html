@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">click me</button>
+
+    <h1>Javascript </h1>
+   
+
+
+
+
+
+
+
+    <script>
+
+     function particle(){
+         this.x=100;
+         this.y=99;
+        //  this.show=function(){
+        //      point(this.x,this.y);
+        //  }
+     }
+
+     particle.prototype.show=function(){
+         point(this.x,this.y);
+     }
+
+var p;
+var v;
+
+
+     function setUp(){
+         createCanvas(600,300);
+         p=new particle();
+     }
+
+
+    </script>
+</body>
+</html>
